@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kleur veranderder</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+</head>
+<body>
+    <h4>Druk op de Knop!</h4>
+    <button id="veranderKleurKnop">Verander van Kleur</button>
+
+    <script>
+        $(document).ready(function() {
+            $("#veranderKleurKnop").click(function() {
+                $("body").css("background-color", "green");
+                alert("De kleur veranderd!")
+            });
+        });
+    </script>
+
+</body>
+</html>

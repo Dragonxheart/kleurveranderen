@@ -1,0 +1,19 @@
+  body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            margin: 0;
+            background-color: lightblue;
+        }
+        #veranderKleurKnop{
+            padding: 10px;
+            margin-top: 60px;
+            font-size: 16px;
+            cursor: pointer
+         
+        }
+        h4{
+            margin-bottom:5px;
+        }
